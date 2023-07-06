@@ -1,0 +1,46 @@
+{
+    "name": "ucrm-plugins/ext-extras",
+    "description": "Adds additional features to UCRM.",
+    "type": "ucrm-plugin",
+    "license": "MIT",
+    "homepage": "https://gitlab.com/ucrm-plugins/ext-extras.git",
+    "authors": [
+        {
+            "name": "Ryan Spaeth",
+            "email": "rspaeth@spethtech.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.1",
+        "ucrm-plugins/sdk-support": "*"
+    },
+    "autoload": {
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../sdk/*",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "../../../../spaethtech/php-monorepo/lib/*",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "archive": {
+        "exclude": [
+            "client/",
+            "zip/",
+            "composer.lock"
+        ]
+    }
+
+
+}

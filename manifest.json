@@ -1,0 +1,42 @@
+{
+    "version": "1",
+    "information": {
+        "name": "extras",
+        "displayName": "Extras",
+        "description": "Adds additional features to UCRM.",
+        "url": "https://github.com/ucrm-plugins/ext-extras.git",
+        "version": "0.0.13",
+        "unmsVersionCompliancy": {
+            "min": "2.0.0",
+            "max": null
+        },
+        "ucrmVersionCompliancy": {
+            "min": "3.0.0",
+            "max": null
+        },
+        "author": "Ryan Spaeth <rspaeth@spaethtech.com>"
+    },
+    "configuration": [
+        {
+            "key": "logErrors",
+            "label": "Log Errors?",
+            "description": "When enabled, errors are shown in this Plugin's log file.",
+            "type": "checkbox",
+            "required": 0
+        },
+        {
+            "key": "widePluginPanel",
+            "label": "Wide Plugin Panel",
+            "description": "When enabled, makes the Plugin panel for all plugins take up the full width!",
+            "type": "checkbox",
+            "required": 0
+        },
+        {
+            "key": "clearPluginLogButton",
+            "label": "Clear Plugin Log Button",
+            "description": "When enabled, adds a button to clear the log file to all Plugin panels.",
+            "type": "checkbox",
+            "required": 0
+        }
+    ]
+}
