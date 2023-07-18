@@ -5,7 +5,7 @@
         "displayName": "Extras",
         "description": "Adds additional features to UCRM.",
         "url": "https://github.com/ucrm-plugins/ext-extras.git",
-        "version": "0.0.13",
+        "version": "0.0.14",
         "unmsVersionCompliancy": {
             "min": "2.0.0",
             "max": null
